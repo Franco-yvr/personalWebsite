@@ -40,7 +40,10 @@ gulp.task('watch', async function() {
 });
 
 // while trying to deploy
-exports.default = gulp.task
+gulp.task('default', gulp.series('scripts', 'styles', 'watch'));
+
+
+// exports.default = gulp.task
 
 // gulp.task('message', function(done) {
 //     console.log("HTTP Server Started");
