@@ -39,4 +39,4 @@ gulp.task('watch', function() {
 });
 
 // while trying to deploy
-exports.default = task
+module.exports.default = task
