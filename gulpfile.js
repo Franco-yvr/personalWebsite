@@ -33,10 +33,9 @@ gulp.task('styles', function () {
         .pipe(gulp.dest('./css'));
 });
 
-gulp.task('watch', function(done) {
+gulp.task('watch', async function() {
     gulp.watch('./js/scripts.js', gulp.series('scripts'));
     gulp.watch('./scss/styles.scss', gulp.series('styles'));
-    done();
 });
 
 // while trying to deploy
