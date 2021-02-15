@@ -3,7 +3,7 @@ var plumber = require('gulp-plumber');
 const uglify = require('gulp-uglify');
 const sass = require('gulp-sass');
 const wait = require('gulp-wait');
-const babel = require('gulp-babel');;
+const babel = require('gulp-babel');
 const rename = require('gulp-rename');
 
 gulp.task('scripts', function() {
@@ -33,10 +33,16 @@ gulp.task('styles', function () {
         .pipe(gulp.dest('./css'));
 });
 
-gulp.task('watch', function() {
+gulp.task('watch', function(done) {
     gulp.watch('./js/scripts.js', gulp.series('scripts'));
     gulp.watch('./scss/styles.scss', gulp.series('styles'));
+    done();
 });
 
 // while trying to deploy
 exports.default = gulp.task
+
+// gulp.task('message', function(done) {
+//     console.log("HTTP Server Started");
+//     done();
+// });
