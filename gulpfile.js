@@ -36,6 +36,7 @@ gulp.task('styles', function () {
 gulp.task('watch', async function() {
     gulp.watch('./js/scripts.js', gulp.series('scripts'));
     gulp.watch('./scss/styles.scss', gulp.series('styles'));
+    console.log("!!!!!!!!!!!!!!!!reached line gulpfile.js/line 39!!!!!!!!!!!!!!!!!!!!!")
 });
 
 // while trying to deploy
