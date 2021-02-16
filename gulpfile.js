@@ -33,7 +33,8 @@ gulp.task('styles', function () {
         .pipe(gulp.dest('./css'));
 });
 
-gulp.task('watch', async function() {
+// removed async
+gulp.task('watch', function() {
     gulp.watch('./js/scripts.js', gulp.series('scripts'));
     gulp.watch('./scss/styles.scss', gulp.series('styles'));
     console.log("!!!!!!!!!!!!!!!!reached line gulpfile.js/line 39!!!!!!!!!!!!!!!!!!!!!")
