@@ -40,6 +40,4 @@ gulp.task('watch', function() {
 });
 
 // while trying to deploy - not from original code
-gulp.task('default', gulp.series('watch'));
-
-//'scripts', 'styles',
+gulp.task('default', gulp.series('scripts', 'styles'));
