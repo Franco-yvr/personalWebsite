@@ -4,6 +4,8 @@
   "description": "",
   "main": "js/scripts.js",
   "scripts": {
+    "build": "gulp",
+    "start": "node index.html",
     "watch": "gulp watch"
   },
   "keywords": [
