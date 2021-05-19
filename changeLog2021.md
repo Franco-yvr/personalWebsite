@@ -1,7 +1,9 @@
 This file logs the changes that have been made from the original repositiory
 For video sizing needs, visit https://css-tricks.com/fluid-width-video/ and use "fitvids"
 
+to update style changes, you must run "npm run build"
 to run on localhost, use npx http-server
+
 
 changed 
 
@@ -22,3 +24,16 @@ changed
 //    }
 // added margin-bottom: 10px; to h1 and h2 and btn-rounded white
 // added margin-bottom: 10px;
+
+
+//#about {
+//padding: 75px 15px;
+//border-bottom: 1px solid $border;
+//    h2 {
+//        color: $heading;
+//    }
+//    p {
+//        color: $text;
+//        margin: 0;
+//    }
+//}

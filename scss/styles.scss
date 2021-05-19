@@ -324,7 +324,7 @@ footer {
 
 .heading {
     position: relative;
-    display: inline-block;
+    //display: inline-block;
     font-size: 2em;
     font-weight: 300;
     margin: 0 0 30px 0;
@@ -481,11 +481,19 @@ footer {
 */
 
 #about {
-    padding: 75px 15px;
+    padding-top: 30px;
+    padding-right: 10%;
+    padding-bottom: 50px;
+    padding-left: 10%;
+    //padding: 10%;
+    // used to be padding: 50px 15px;
     border-bottom: 1px solid $border;
+
+
 
     h2 {
         color: $heading;
+        text-align: center;
     }
 
     p {
@@ -914,7 +922,11 @@ footer {
         height: auto;
         //min-height: auto;
         //max-height: auto;
-        padding: 50px 15px;
+        //padding: 50px 15px;
+        padding-top: 75px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
     }
 
     #lead-content {
