@@ -1,6 +1,7 @@
 This file logs the changes that have been made from the original repositiory
 For video sizing needs, visit https://css-tricks.com/fluid-width-video/ and use "fitvids"
 
+Your personalWebsite github remote is "origin", just do "git push origin"
 to update style changes, you must run "npm run build"
 to run on localhost, use npx http-server
 
